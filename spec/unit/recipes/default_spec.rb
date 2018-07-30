@@ -32,10 +32,10 @@ describe 'python::default' do
       expect { chef_run }.to_not raise_error
     end
     it 'Should install python' do
-      expect( chef_run ).to install_package 'python'
+      expect( chef_run ).to install_package('python')
     end
-    it 'Should install python' do
-      expect( chef_run ).to install_package 'flask'
+    it 'Should install python-pip' do
+      expect( chef_run ).to install_package('python-pip')
     end
   end
 end
