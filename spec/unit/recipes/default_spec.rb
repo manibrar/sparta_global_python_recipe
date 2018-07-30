@@ -34,5 +34,8 @@ describe 'python::default' do
     it 'Should install python' do
       expect( chef_run ).to install_package 'python'
     end
+    it 'Should install python' do
+      expect( chef_run ).to install_package 'flask'
+    end
   end
 end
