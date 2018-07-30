@@ -5,4 +5,4 @@
 # Copyright:: 2018, The Authors, All Rights Reserved.
 package 'python'
 
-package 'flask'
+package 'python-pip'
