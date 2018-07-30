@@ -37,5 +37,9 @@ describe 'python::default' do
     it 'Should install python-pip' do
       expect( chef_run ).to install_package('python-pip')
     end
+    it 'Should install python-pip' do
+      expect( chef_run ).to install_package('python-libncurses5-dev')
+    end
+
   end
 end
