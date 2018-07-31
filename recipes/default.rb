@@ -6,4 +6,3 @@
 package 'python'
 package 'python-pip'
 package 'python-flask'
-package 'python-libncurses5-dev'

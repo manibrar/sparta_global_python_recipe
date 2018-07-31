@@ -32,7 +32,3 @@ end
 describe package 'python-flask' do
   it { should be_installed }
 end
-
-describe package 'libncurses5-dev' do
-  it { should be_installed }
-end
