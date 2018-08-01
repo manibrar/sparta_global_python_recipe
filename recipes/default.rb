@@ -7,7 +7,7 @@
 apt_update 'update_sources' do
   action :update
 end
+package 'libncurses5'
 package 'python'
 package 'python-pip'
 package 'python-flask'
-package 'libc6-dev'
