@@ -9,6 +9,5 @@ apt_update 'update_sources' do
 end
 package 'python'
 
-package 'python-pip'
 package 'python-flask'
 package 'libc6-dev'
